@@ -1,0 +1,80 @@
+:root{
+    --fs14 : 14px;
+    --fs16 : 16px;
+    --fs20 : 20px;
+    --fs24 : 24px;
+    --fs25 : 25px;
+    --fs22 : 22px;
+    --fs30 : 30px;
+}
+@media (min-width: 1600px) {
+    :root{
+        --fs14 : 16px;
+        --fs16 : 18px;
+        --fs20 : 22px;
+        --fs24 : 26px;
+        --fs25 : 27px;
+        --fs22 : 26px;
+        --fs30 : 32px;
+    }
+}
+@media (min-width: 1800px) {
+    :root{
+        --fs14 : 18px;
+        --fs16 : 20px;
+        --fs20 : 24px;
+        --fs24 : 28px;
+        --fs25 : 29px;
+        --fs22 : 28px;
+        --fs30 : 34px;
+    }
+}
+@media (min-width: 2100px) {
+    :root{
+        --fs14 : 20px;
+        --fs16 : 22px;
+        --fs20 : 26px;
+        --fs24 : 30px;
+        --fs25 : 31px;
+        --fs22 : 30px;
+        --fs30 : 36px;
+    }
+}
+
+@media (max-width: 1200px){
+    :root{
+        --fs14 : 14px;
+        --fs16 : 16px;
+        --fs20 : 20px;
+        --fs24 : 24px;
+        --fs25 : 25px;
+        --fs22 : 22px;
+        --fs30 : 30px;
+    }
+}
+@media (max-width: 1024px){
+    :root{
+        --fs14 : 14px;
+        --fs16 : 16px;
+        --fs20 : 20px;
+        --fs24 : 24px;
+        --fs25 : 25px;
+        --fs22 : 26px;
+        --fs30 : 30px;
+    }
+}
+@media (max-width: 991px){
+    
+}
+@media (max-width: 768px){
+    
+}
+@media (max-width: 575px){
+    
+}
+@media (max-width: 420px){
+    
+}
+@media (max-width: 360px){
+    
+}

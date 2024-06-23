@@ -1,0 +1,122 @@
+@media (max-width: 1200px) {
+  .social_links ul li{
+    margin: 7px;
+  }
+  .social_links ul li a{
+    height: 35px;
+    width: 35px;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    display: block;
+  }
+  .profile_section{
+    height: 70px;
+  }
+  .profile_section .menu_bar{
+    transform: translateY(-100%);
+    display: block;
+    transition: 1.5s all;
+  }
+  .showMenu .profile_section .menu_bar{
+    transform: translateY(0px);
+    position: absolute;
+    width: 100%;
+    background-color: #000505;
+    transition: 2s all;
+  }
+  .bannerImg {
+    position: relative;
+  }
+  .aboutImg img{
+    object-fit: cover;
+    height: 500px;
+  }
+  .right_banner{
+    width: 100%;
+  }
+  .left_menu{
+    display: none;
+  }
+  .bars i{
+    font-size: 40px;
+    color: #fff;
+  }
+  .header_profile {
+    display: flex;
+    background-color: #000505;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px;
+    position: relative;
+    z-index: 999;
+  }
+  section.header {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    box-shadow: 2px -1px 7px #c5c5c5;
+  }
+  .main_section{
+    display: block !important;
+  }
+  .candiName{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+    z-index: 99;
+  }
+  .header_profile .logo{
+    width: max-content;
+  }
+}
+@media (max-width: 991px) {
+  .aboutImg img{
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .social_links ul li{
+    margin: 0 5px;
+  }
+  .header_profile .logo a img{
+    height: 70px;
+    width: 70px;
+  }
+}
+@media (max-width: 575px) {
+  .header_profile .logo a img{
+    width: 50px;
+    height: 50px;
+  }
+  .header_profile{
+    padding:10px 15px ;
+  }
+  .aboutSection{
+    padding: 25px 15px;
+  }
+  .skillSection{
+    padding: 30px 15px;
+  }
+  .projectSctn{
+    padding: 20px 15px;
+  }
+  .projectSctn{
+    padding: 30px 15px;
+  }
+  .contactSection{
+    padding: 25px 15px;
+  }
+}
+@media (max-width: 479px) {
+  
+}
+@media (max-width: 420px) {
+  
+}
+@media (max-width: 360px) {
+  
+}
