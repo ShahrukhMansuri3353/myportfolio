@@ -527,7 +527,7 @@ body{
   position: relative;
   z-index: 99 ;
   background-color: #000505;
-  color: darkgray;
+  color: #fff;
 }
 .servicectn h4+span{
   font-size: var(--fs24);
