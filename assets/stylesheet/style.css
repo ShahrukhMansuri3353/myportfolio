@@ -154,8 +154,8 @@ body{
 .logo:hover a img{
   transform: rotateY(180Deg);
   transition: 0.7s all;
-  width: 130px;
-  height: 130px;
+/*   width: 130px; */
+/*   height: 130px; */
 }
 /* .menu{
     background-color: rgb(24, 28, 31,.5);
