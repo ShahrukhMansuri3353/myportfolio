@@ -489,7 +489,7 @@ body{
   z-index: 10;
 } 
 .skillSection .aboutCtn p{
-  color: #ffffff;
+  color: white;
 }
 /* -------- skillsimg css ---------------- */
 .skillsimg img{
